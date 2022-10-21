@@ -9,6 +9,6 @@ class classa
   void test_function_a(const classc &param);
   private:
   classc value_example;
-}
+};
 
 #endif // CLASSA_H
