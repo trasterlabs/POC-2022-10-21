@@ -6,6 +6,7 @@
 
 int main (void)
 {
+  std::cout << "Obscure things happen inside classc!" << std::endl;
   classa testa;
   classb testb;
   classc testc;
