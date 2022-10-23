@@ -12,6 +12,6 @@ class classc
   {
     return 3;
   }
-}
+};
 
 #endif // CLASSC_H
