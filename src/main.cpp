@@ -2,12 +2,14 @@
 
 #include <classa.h>
 #include <classb.h>
+#include <classc.h>
 
 int main (void)
 {
   classa testa;
   classb testb;
-  testa.test_function_a();
-  testb.test_function_b();
+  classc testc;
+  testa.test_function_a(testc);
+  testb.test_function_b(testc);
   return 0;
 }
