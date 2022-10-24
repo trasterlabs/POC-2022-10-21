@@ -13,5 +13,6 @@ int main (void)
   testa.test_function_a(testc);
   testa.function_pointers_show();
   testb.test_function_b(testc);
+  testb.function_pointers_show();
   return 0;
 }
