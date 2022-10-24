@@ -11,6 +11,7 @@ int main (void)
   classb testb;
   classc testc;
   testa.test_function_a(testc);
+  testa.function_pointers_show();
   testb.test_function_b(testc);
   return 0;
 }
