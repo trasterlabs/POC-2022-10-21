@@ -1,6 +1,6 @@
 
 CPP            = gcc
-CPPFLAGSD      = -Wall -g -O0
+CPPFLAGSD      = -Wall -O1
 CPPFLAGS11D    = $(CPPFLAGSD) -std=gnu++17
 
 DIRINCLUDE = include/
